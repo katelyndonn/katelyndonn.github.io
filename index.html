@@ -223,47 +223,6 @@
         </div>
     </section>
 
-    <!-- Cat Corner -->
-    <section class="section-cat">
-        <h2>Cat Corner</h2>
-        <small><i>A tribute to the best cat in the world, Tabby. RIP.</i></small>
-
-        <div class="cat-slideshow">
-            <button class="slideshow-btn left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="slideshow-btn right" onclick="plusDivs(+1)">&#10095;</button> 
-            <img class="cat-img" src="./img/cat/cat1.jpg">
-            <img class="cat-img" src="./img/cat/cat2.jpg">
-            <img class="cat-img" src="./img/cat/cat3.jpg">
-            <img class="cat-img" src="./img/cat/cat4.jpg">
-            <img class="cat-img" src="./img/cat/cat5.jpg">
-            <img class="cat-img" src="./img/cat/cat6.jpg">
-            <img class="cat-img" src="./img/cat/cat7.jpg">
-        </div>
-
-    </section>
-
-    <!-- Slideshow Script -->
-    <script>
-        // Copy pasted from W3Schools
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("cat-img");
-        if (n > x.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = x.length} ;
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        x[slideIndex-1].style.display = "block";
-        }
-    </script>
-
     <!-- Footer -->
     <footer>
         <p>built using html and css. template by mingle li.</p>
