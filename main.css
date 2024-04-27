@@ -196,6 +196,32 @@ ul.tech-labels li:hover {
     filter: drop-shadow(0 5px 15px rgba(0,0,0,.3));
 }
 
+/* Leadership Roles */
+section.section-leadership {
+    flex-direction: column;
+}
+
+div.leadership-links {
+    margin: 0.5rem 0;
+}
+
+div.leadership-links a {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+div.leadership-links img {
+    width: 20px;
+    transition: all .3s ease-in-out;
+}
+
+div.leadership-links img:hover {
+    -webkit-filter: drop-shadow(0 5px 15px rgba(0,0,0,.3));
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,.3));
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
 /* Projects */
 section.section-projects {
     flex-direction: column;
