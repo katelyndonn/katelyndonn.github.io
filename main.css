@@ -15,7 +15,8 @@ div.banner-container {
 }
 
 img.profile-pic {
-    border-radius: 150%;
+    margin-right: 20px;
+    border-radius: 50%;
     width: 200px;
 }
 
