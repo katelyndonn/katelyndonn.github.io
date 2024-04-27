@@ -201,51 +201,9 @@ section.section-leadership {
     flex-direction: column;
 }
 
-div.leadership-links {
-    margin: 0.5rem 0;
-}
-
-div.leadership-links a {
-    display: inline-block;
-    margin-right: 0.5rem;
-}
-
-div.leadership-links img {
-    width: 20px;
-    transition: all .3s ease-in-out;
-}
-
-div.leadership-links img:hover {
-    -webkit-filter: drop-shadow(0 5px 15px rgba(0,0,0,.3));
-    filter: drop-shadow(0 5px 15px rgba(0,0,0,.3));
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-}
-
 /* Projects */
 section.section-projects {
     flex-direction: column;
-}
-
-div.project-links {
-    margin: 0.5rem 0;
-}
-
-div.project-links a {
-    display: inline-block;
-    margin-right: 0.5rem;
-}
-
-div.project-links img {
-    width: 20px;
-    transition: all .3s ease-in-out;
-}
-
-div.project-links img:hover {
-    -webkit-filter: drop-shadow(0 5px 15px rgba(0,0,0,.3));
-    filter: drop-shadow(0 5px 15px rgba(0,0,0,.3));
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
 }
 
 /* Skills */
@@ -272,53 +230,6 @@ div.skills img:hover {
     filter: drop-shadow(0 5px 15px rgba(0,0,0,.3));
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
-}
-
-/* Cat Corner */
-section.section-cat {
-    flex-direction: column;
-}
-
-div.cat-slideshow {
-    margin: 2rem 0;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 550px;
-    height: 300px;
-}
-
-img.cat-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 1rem;
-    object-fit: cover;
-}
-
-button.slideshow-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 1rem;
-    border: none;
-    background-color: rgba(21, 20, 20, 0.5);
-    color: #ffffff;
-    font-size: 2rem;
-    border-radius: 0;
-}
-
-button.slideshow-btn:hover {
-    cursor: pointer;
-}
-
-button.slideshow-btn.left {
-    left: 0;
-}
-
-button.slideshow-btn.right {
-    right: 0;
 }
 
 /* Footer */
